@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h2>My Contact Details</h2>
+    <p>No 32 Agreement Street, Ilasamaja, Lagos</p>
+    <p>08068895803</p>
+    <p>cbsmoothoj@gmail.com</p>
+    <hr />
+    <form action="mailto:cbsmoothoj@gmail.com" method="post">
+      <label for="name">Name: </label>
+      <input type="text" name="name" id="name" required /><br />
+      <label for="email">Email: </label>
+      <input type="email" name="email" id="email" required /><br />
+      <label for="phone">Phone Number: </label>
+      <input type="number" name="phone" id="phone" required /><br />
+      <label>Gender:</label><br />
+      <input type="radio" name="gender" id="male"/>
+      <label for="male">Male</label><br />
+      <input type="radio" name="gender" id="female" />
+      <label for="female">Female</label><br />
+      <input type="radio" name="gender" id="notsaying" />
+      <label for="notsaying">Not Saying</label><br />
+      <label>Do you want to sign up for the email list?</label><br />
+      <input type="checkbox" name="emaillist" id="emaillist" />
+      <label for="emaillist">Yes</label><br />
+      <label>Favorite Car:</label><br />
+      <select name="favoritecar" id="favoritecar" required>
+        <option value="">Select</option>
+        <option value="volvo">Volvo</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="peugeot">Peugeot</option>
+        <option value="toyota">Toyota</option>
+        <option value="honda">Honda</option>
+        <option value="rollsroyce">Rolls Royce</option></select
+      ><br />
+      <textarea
+        name=""
+        id=""
+        placeholder="Please, leave a message"
+        cols="30"
+        rows="10"
+        required
+      ></textarea><br>
+      <input type="submit" value="Submit">
+    </form>
+    <a href="/">Go back to home</a>
+  </body>
+</html>
